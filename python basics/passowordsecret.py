@@ -1,1 +1,13 @@
-#CRIPTOGRAFANDO UMA SENHA SIMPLES
+print("Olá façã o cadastro !!!\n")
+print("Digite seu nome: ")
+nome = input()
+print("Digite seu Sobrenome")
+Sobrenome = input()
+print("---------------------")
+senha_nova = input("Digite sua senha: ")
+senha_tamanho = len(senha_nova)
+senha_cript = '*' * senha_tamanho
+print('-----------------------')
+print(f"o email sei foi criado:{nome}{Sobrenome}@gmail.com")
+print(f"sua senha foi bem escrita {senha_cript}!!!")
+print("Parabéns seu cadastro foi concluido!!!")
