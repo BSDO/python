@@ -25,3 +25,12 @@
 #----------------------------------------------------------------------
 #loop while
 
+while True:
+    i = input("Digite o numero: ")
+    if i == "15":
+        print("Beleza, o número bate com o do sistema!")
+        break
+    else:
+        print("Esta errado!")
+
+2
