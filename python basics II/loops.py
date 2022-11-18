@@ -5,7 +5,7 @@
 # #     'IDADE': "22ANOS"
 # # }
 
-# # for imprima_lista in user.items(): #percorra todos os item da lista user e adiciona em uma nova variave
+o# # for imprima_lista in user.items(): #percorra todos os item da lista user e adiciona em uma nova variave
 # #     key, values = imprima_lista; # armaneza os conteudo da chave e conteudo, em duas variavreis.
 # #     print(key,"/", values)
 
