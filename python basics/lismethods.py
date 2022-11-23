@@ -23,14 +23,18 @@
 
 # car.remove(1)
 # print("remove o valor definido",car)
-from ast import keyword
-from doctest import REPORTING_FLAGS
-from hashlib import new
 
 
-car = [1,2,3,4,5,3,4,2,3,2,2,4,8]
+car = [0,1,2,3,4,5,3,4,2,3,2,2,4,8,1,1,1,1]
 
-# print(car.count(3))#quantas vezes o 3 aparece.
+carnovo = []
+
+for valor in car:
+    if car.count(valor) > 1:
+        carnovo.append(valor)
+
+print(carnovo, end='')
+
 # car.sort() #sort - ordena uma lista
 # print(car)
 # print(car)
@@ -42,10 +46,10 @@ car = [1,2,3,4,5,3,4,2,3,2,2,4,8]
 # print(list(range(0,100,3)))#cria uma lista de 3 em 3 ate 100
 #list unpacking
 
-a,b,c, *nome, d = [1,2,3,'breno','anotion',3,3,3,3,]
-print(a)
-print(b)
-print(c)
-print(nome)
-print(d)
+# a,b,c, *nome, d = [1,2,3,'breno','anotion',3,3,3,3,]
+# print(a)
+# print(b)
+# print(c)
+# print(nome)
+# print(d)
 
